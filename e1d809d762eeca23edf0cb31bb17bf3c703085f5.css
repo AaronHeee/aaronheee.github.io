@@ -1,3 +1,10 @@
+/* img styling */
+img {
+  max-width: 95%;
+  height: auto;
+  border-radius: 5px;
+}
+
 /* enables hover effect on buttons */
 div[role="button"]:not(.notion-record-icon):hover {
   background: rgba(55, 53, 47, 0.08);
@@ -36,8 +43,7 @@ div[role="button"]:not(.notion-record-icon):hover {
 .notion-scroller .notion-collection_view-block .notion-board-view,
 .notion-scroller .notion-collection_view-block .notion-calendar-view {
   max-width: 100% !important;
-  padding-left: unset !important;
-  padding-right: unset !important;
+  padding: 1px  !important;
 }
 
 /* pull alias arrows back inline */
@@ -146,6 +152,11 @@ a[data-token-index] svg.page {
   padding-left: 0!important;
   padding-right: 0!important;
 }
+
+.notion-scroller {
+  padding: 1px!important;
+}
+
 }
 
 .pseudoAfter:after {
